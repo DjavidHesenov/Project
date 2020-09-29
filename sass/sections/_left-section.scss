@@ -1,0 +1,48 @@
+.body {
+    width: 1000px;
+    // height: 100%;
+    margin: 0 auto;
+    padding: 30px 24px 24px 24px;
+    .left {
+        font-size: 13px;
+        width:142px;
+        height:665px;
+        .taps-div{
+            ul {
+                a {
+                    text-decoration: none;
+                    color: $lighter-dark;
+                    li {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 8px;
+                        padding: 4px;
+                        &:hover {
+                            background-color: #E6E7E8;
+                            border-radius: 3px;
+                        }
+                    }
+                    img{
+                        border-radius: 3px;
+                        width: 18px;
+                        height: 18px;
+                        margin-right: 8px;
+                    }
+                }
+            }
+        }    
+            .links {
+                padding: 8px 0px;
+                border-top: 1px solid $border-color;
+                ul {
+                    li {
+                        a {
+                            color: $normal;
+                        }
+                    }
+                }
+            }        
+    }
+}
+
+

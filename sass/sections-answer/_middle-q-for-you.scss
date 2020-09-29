@@ -1,0 +1,147 @@
+.q-for-you {
+    width: 600px;
+    height: 202px;
+    background-color: white;
+    border: 1px solid $border-color;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    .q-for-you-div {
+        .top {
+            box-sizing:border-box;
+            width: inherit;
+            height: 41px;
+            padding: 8px 16px;
+            border-bottom: 1px solid $border-color;
+            .icon-div {
+                width: 24px;
+                height: 24px;
+                background-color: #B92B27;
+                border-radius: 3px;
+                margin-right: 8px;
+                i {
+                    color: white;
+                }
+            }
+            .link-div {
+                a {
+                    color: $normal;
+                    font-size: 12px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+        .bottom {
+            box-sizing:border-box;
+            height: 161px;
+            width: 600px;
+            padding: 16px 16px 4px;
+            font-size: 13px;
+            color: $normal;
+            .q-health-X {
+                margin-bottom: 8px;
+                height: 18px;
+                .q-health {
+                    span {
+                    }
+                    a {
+                        color: $normal;
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+                .X {
+                    .fa-times {
+                        width: 24px;
+                        height: 24px;
+                        &:hover {
+                            border-radius: 100%;
+                            cursor: pointer;
+                            background-color: $hover-bg-color;
+                        }
+                    }    
+                }
+            }
+            .question-div {
+                line-height: 1.4;
+                height: 50px;
+                margin-bottom: 8px;
+                span {
+                    color: $dark-color;
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+            }
+            .info-div {
+                height: 18px;
+                a {
+                    color: $normal;
+                    font-weight: 700;
+                }
+            }
+            .user-reaction {
+                height: 40px;
+                .left-side {
+                    .answer {
+                        padding: 7px 12px;
+                        border-radius: 15px;
+                        padding: 5px;
+                        &:hover {
+                            background-color: $hover-bg-color;
+                            cursor: pointer;
+                        }
+                        i {
+                            color: #2E69FF;
+                        }
+                    }
+                    .follow {
+                        padding: 7px 12px;
+                        border-radius: 15px;
+                        padding: 5px;
+                        &:hover {
+                            background-color: $hover-bg-color;
+                            cursor: pointer;
+                        }
+                    }
+                    .pass {
+                        padding: 7px 12px;
+                        border-radius: 15px;
+                        padding: 5px;
+                        &:hover {
+                            background-color: $hover-bg-color;
+                            cursor: pointer;
+                        }
+                    }
+                }
+                .right-side {
+                    .downvote {
+                        border-radius: 15px;
+                        padding: 5px;
+                        &:hover {
+                            background-color: $hover-bg-color;
+                            cursor: pointer;
+                        }
+                    }
+                    .sharing-op {
+                        border-radius: 15px;
+                        padding: 5px;
+                        &:hover {
+                            background-color: $hover-bg-color;
+                            cursor: pointer;
+                        }
+                    }
+                    .more {
+                        border-radius: 15px;
+                        padding: 5px;
+                        &:hover {
+                            background-color: $hover-bg-color;
+                            cursor: pointer;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,35 @@
+.add-topics {
+    width: 138px;
+    height: 133px;
+    padding: 16px;
+    background-color: white;
+    border: 1px solid $border-color;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+    line-height: 1.4;
+    .up-part {
+        color: $dark-color;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .mid-part {
+        color: #636466;
+        font-size: 13px;
+    }
+    .bot-part {
+        button {
+            color: #2E69FF;
+            background-color: #EBF0FF;
+            font-weight: 600;
+            border: 1px solid #DAE3FF;
+            outline: none;
+            margin-top: 8px;
+            padding: 5px 15px;
+            border-radius: 1000px;
+            &:hover {
+                cursor: pointer;
+                background-color: #D7E1FF;
+                border: 1px solid #C8D6FF;
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.left-questions-filters {
+    width: 142px;
+    height: 100px;
+    background-color: transparent;
+    line-height: 1.4;
+    .q-text {
+        color: $dark-color;
+        font-weight: 500;
+        font-size: 15px;
+        padding: 8px 0px;
+        border-bottom: 1px solid $border-color;
+    }
+    ul {
+        li {
+            margin: 3px 0px;
+            display: flex;
+            padding: 4px;
+            align-items: center;
+            &:hover {
+                background-color: #E6E7E8;
+                border-radius: 3px;
+            }
+            a {
+                font-size: 13px;
+                text-decoration: none;
+                color: $lighter-dark;
+            }
+        }
+    }
+}
+
+
+

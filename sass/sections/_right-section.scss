@@ -1,0 +1,30 @@
+.right {
+    height: 360px;
+    width: 172px;
+    border: 1px solid $border-color;
+    box-sizing: border-box;
+    line-height: 1.4;
+    .top {
+        padding: 8px 16px;
+        background-color: $hover-bg-color;
+        font-size: 15px;
+        font-weight: 500;
+    }
+    .bottom {
+        div {
+            display: flex;
+            align-items: center;
+            background-color: white;
+            font-size: 13px;
+            padding: 8px 16px;
+            border-top: 1px solid $border-color;
+            &:hover {
+                background-color: $hover-bg-color;
+                cursor: pointer;
+            }
+            input {
+                margin-right: 15px;
+            }
+        }
+    }
+}               

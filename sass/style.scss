@@ -1,0 +1,19 @@
+// Common
+@import "common/variables";
+@import "common/reset";
+@import "common/flex";
+@import "common/common";
+@import "common/position";
+
+//Sections
+@import "sections/nav";
+@import "sections/left-section";
+@import "sections/middle-section";
+@import "sections/right-section";
+
+@import "sections-answer/left-quetions-filters";
+@import "sections-answer/middle-q-for-you";
+@import "sections-answer/right-add-topics";
+
+@import "sections-notifications/filters-left";
+@import "sections-notifications/notifications-center";
